@@ -10,7 +10,8 @@ import ro.xale.service.KafkaProducerServ;
 
 import java.util.Map;
 
-public class KafkaServiceSteps {
+public class KafkaServicesSteps {
+
     private static final KafkaConsumerServ consumerServ = new KafkaConsumerServ();
     private final KafkaProducerServ producerServ = new KafkaProducerServ();
 

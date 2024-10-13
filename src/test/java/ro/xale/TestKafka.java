@@ -1,9 +1,11 @@
+package ro.xale;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import service.KafkaConsumerServ;
-import service.KafkaProducerServ;
+import ro.xale.service.KafkaConsumerServ;
+import ro.xale.service.KafkaProducerServ;
 
 import java.util.Map;
 

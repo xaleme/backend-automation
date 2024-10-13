@@ -1,12 +1,12 @@
-package steps;
+package ro.xale.stepdefinitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
-import service.KafkaConsumerServ;
-import service.KafkaProducerServ;
+import ro.xale.service.KafkaConsumerServ;
+import ro.xale.service.KafkaProducerServ;
 
 import java.util.Map;
 

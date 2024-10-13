@@ -1,4 +1,4 @@
-package service;
+package ro.xale.service;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
